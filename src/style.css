@@ -103,13 +103,18 @@ input {
 
 #validate {
   font-size: 25px;
-  margin: 20px 0px;
+  margin: 20px 20px;
 }
 
 .pages{
   display: flex;
   font-size: 18px;
   justify-content: space-between;
+  margin: 0px 20px;
+}
+
+.pages:hover{
+  color: #FFA6C1;
 }
 
 footer{
