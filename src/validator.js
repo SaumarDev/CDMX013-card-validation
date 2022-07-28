@@ -1,7 +1,6 @@
 const validator = {
   //validator = Objeto        isValid = metodo
   isValid: function (creditCardNumber) {
-    //if (creditCardNumber.length == 16) {
       let myArray = [];
       let array2 = [];
       let array3 = [];
@@ -45,9 +44,6 @@ const validator = {
       } else {
         return false;
       }
-    //} else {
-    //  alert("ingresa 16 dígitos");
-    //}
   },
 
   
